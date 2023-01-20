@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-info">
+        <!-- player health -->
+        <div class="player-health">
+          <div class="player-health-bar"></div>
+          <div class="player-total-health"></div>
+        </div>
+        <!-- timer -->
+        <div class="timer">
+          <span id="time">50</span>
+        </div>
+        <!-- enemy health -->
+        <div class="enemy-health">
+          <div class="enemy-health-bar"></div>
+          <div class="enemy-total-health"></div>
+        </div>
+      </div>
+      <div id="winner">Tie</div>
+      <canvas></canvas>
+    </div>
+    <script src="./js/utils.js"></script>
+    <script src="./js/classes.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
